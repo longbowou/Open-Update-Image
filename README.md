@@ -2,7 +2,9 @@
 
 This Lambda function provides a seamless image upload experience, handling both the secure storage of images in Amazon
 S3 and updating user profile information in DynamoDB. It’s designed to allow users to easily upload their profile
-pictures, delivering modern and interactive functionality for any application. Here’s a breakdown of the key aspects:
+pictures, delivering modern and interactive functionality for any application. Here’s a breakdown of the key aspects.
+
+![Screenshot 2024-10-23 at 1.33.48 PM.png](screenshots/apigateway/Screenshot%202024-10-23%20at%201.33.48%E2%80%AFPM.png)
 
 ## Key Highlights
 
@@ -39,6 +41,19 @@ This Lambda function delivers the perfect blend of security, scalability, and sp
 image uploads and profile updates efficiently, all while leveraging AWS’s robust infrastructure. The result? A
 cost-effective, serverless, and reliable solution that enhances user experience by enabling quick and easy profile
 personalization.
+
+### What's next ?
+
+Check the [main](https://github.com/longbowou/open-frontend) repository this one is part of.
+
+## Screenshot
+
+![Screenshot 2024-10-22 at 9.49.03 PM.png](screenshots/lambda/Screenshot%202024-10-22%20at%209.49.03%E2%80%AFPM.png)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 
 

@@ -2,10 +2,10 @@ import {DynamoDBClient, UpdateItemCommand} from "@aws-sdk/client-dynamodb";
 import {PutObjectCommand, S3Client} from "@aws-sdk/client-s3";
 import {getSignedUrl} from "@aws-sdk/s3-request-presigner";
 
-const region = 'us-east-2'
+const region = process.env.AWS_REGION;
 
-const DYNAMO_TABLE_NAME = 'ProjectOpen';
-const S3_BUCKET_NAME = 'project-open-media';
+const S3_BUCKET_NAME = process.env.S3_BUCKET_NAME;
+const DYNAMO_TABLE_NAME = process.env.DYNAMO_TABLE_NAME;
 
 const dynamoDbClient = new DynamoDBClient({region});
 const s3Client = new S3Client({region});
